@@ -1,4 +1,6 @@
-
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
 header{
     display: flex;
     flex-wrap: wrap;
@@ -12,12 +14,12 @@ h1:hover{
     border-bottom: 6px solid black;
 }
 
-nav ul{
+ nav ul{
     list-style-type: none;
     display: flex;
     flex-wrap: wrap;
     display: inline-flex;
-    margin-top: -70px;
+    margin-top: -85px;
     float: right;
 }
 
@@ -39,4 +41,13 @@ a:hover{
 
 a:active{
     color:black;
+}
+
+section{
+    display:flex;
+    display: inline;
+}
+#project-image{
+    flex-wrap: wrap;
+    max-width: 300px;
 }
