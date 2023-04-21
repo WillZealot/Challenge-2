@@ -1,0 +1,42 @@
+
+header{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: rgb(26, 121, 204);
+    color: whitesmoke;
+    padding-left: 25px;
+    font-size: 18px;
+}
+
+h1:hover{
+    border-bottom: 6px solid black;
+}
+
+nav ul{
+    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
+    display: inline-flex;
+    margin-top: -70px;
+    float: right;
+}
+
+nav ul li{
+    padding-right: 100px;
+    position: inherit;
+}
+
+nav ul li a{
+    color:whitesmoke;
+    font-size: 25px;
+    }
+
+a:hover{
+    text-shadow: 10px 10px 10px black;
+    font-weight: bold;
+    
+}
+
+a:active{
+    color:black;
+}
