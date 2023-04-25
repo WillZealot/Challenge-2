@@ -5,6 +5,7 @@
 body{
     padding:0;
     margin:0;
+    background-image: url(https://www.modacasa.es/wp-content/uploads/2016/10/Prism%20311787.jpg);
 }
 header{
     background-color: grey ;
@@ -56,6 +57,7 @@ a:active{
 #Aboutme h2{
     background-color: grey;
     text-indent: 25px;
+    max-width: none;
 }
 
 h2{
@@ -80,14 +82,6 @@ h2{
     max-width: 500px;
     border-radius: 250px;
     box-shadow: 0 0 25px black;
-}
-
-aside{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: end;
-    position: inherit;
-    
 }
 
 
