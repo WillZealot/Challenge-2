@@ -27,7 +27,7 @@ header li{
     top: -20px;
 }
 
-ul , ul li a{
+header ul , header ul li a{
     display: flex;
     flex-wrap: wrap;
     margin-left: 30%;
@@ -68,8 +68,8 @@ h2{
 }
 
 #Aboutme p{
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: large;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
     display: flex;
     flex-wrap: wrap;
     position: relative;
@@ -78,6 +78,7 @@ h2{
     width: 75%;
     line-height: 2;
     letter-spacing: 1px;
+    text-decoration-line: underline;
 }
 
 .portfolioimg{
@@ -127,7 +128,6 @@ h4{
 }
 
 #project1:hover, #project2:hover, #project3:hover, #project4:hover, #project5:hover, #project6:hover{
-    border-radius: 25px;
     opacity: .8;
 }
 
@@ -142,7 +142,7 @@ h4{
 
 h3{
     background-color: grey;
-    width: 60%;
+    width: 200px;
     padding-top: 10px;
     padding-bottom: 10px;
     margin-bottom: 35px;
@@ -154,6 +154,45 @@ h3{
 }
 
 /*contact me section*/
+#contact{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-evenly;
+    position: relative;
+    max-width: 100%;
+}
+
+#email,#linkedin,#instagram{
+    display: flex;
+    justify-content: space-evenly;
+    padding-bottom: 15px;
+    height: 28px;
+    border: 4px solid transparent;
+    max-width: 100%;
+    border-radius:10px;
+    background-color:#6093eb;
+    border-bottom: 7px solid black;
+}
+
+#email:hover,#linkedin:hover,#instagram:hover{
+    opacity: .6
+}
+
+#email:active,#linkedin:active,#instagram:active{
+    box-shadow:3px 3px black;
+}
+#Contact ul, #Contact ul li a{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:end;
+    justify-content: space-evenly;
+    font-size: x-large;
+    color: whitesmoke;
+    list-style-type: none;
+    text-decoration: none;
+}
+
 
 @media screen and (max-width: 755px) {
     ul, ul li a, .project-cards, header, header h1{
@@ -161,23 +200,15 @@ h3{
         flex-wrap: wrap;
         justify-content: center;
         align-content: center;
-        display: block;
-        margin-left: 0%;
+        display: inline-block;
+        margin-left: 0;
         text-align: center;
-
     }
-}
-
-@media screen and (max-width: 755px) {
     header h1, header li{
         position:relative;
         right: 40px
     }
-}
-
-@media screen and (max-width: 755px) {
     .portfolioimg{
         max-width: 600px;
     }
-    
 }
