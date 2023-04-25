@@ -68,34 +68,72 @@ h2{
 }
 
 #Aboutme p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: large;
     display: flex;
     flex-wrap: wrap;
     position: relative;
     left: 50px;
     justify-content: center;
-    max-width: 75%;
+    width: 75%;
     line-height: 2;
     letter-spacing: 1px;
 }
 
 .portfolioimg{
     max-width: 500px;
-    border-radius: 250px;
+    border-radius: 250px 250px 0px 0px;
     box-shadow: 0 0 25px black;
+    height: 400px;
+    position: relative;
+    left:400px;
+    display: flex;
 }
 
+aside{
+    display: flex;
+    justify-content: center;
+}
+
+h4{
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    font-size: xx-large;
+    border-top: 5px dashed grey;
+    padding-left: 150px;
+    padding-top: 50px;
+}
 
 /*Project Cards Section Down Below*/
-#project1, #project2, #project3, #project4, #project5, #project6 {
+
+#project1{
     display: flex;
     flex-wrap: wrap;
     align-self: center;
-    width: 100px;
-    height: 100px;
+    max-width: 600px;
     border: 6px solid grey ;
-    padding: 50px;
     margin: 20px;
+    object-fit: fill;
+    box-shadow: 25px 25px 25px black;
 }
+
+#project2, #project3, #project4, #project5, #project6 {
+    display: flex;
+    flex-wrap: wrap;
+    align-self: center;
+    max-width: 400px;
+    border: 6px solid grey ;
+    margin: 20px;
+    object-fit: fill;
+    
+}
+
+#project1:hover, #project2:hover, #project3:hover, #project4:hover, #project5:hover, #project6:hover{
+    border-radius: 25px;
+    opacity: .8;
+}
+
 
 #My-Work{
     display: flex;
@@ -104,9 +142,6 @@ h2{
     justify-content: space-evenly;
 }
 
-#My-Work:hover{
-    opacity: 10px;
-}
 
 h3{
     background-color: grey;
@@ -115,12 +150,13 @@ h3{
     padding-bottom: 10px;
     margin-bottom: 35px;
     position: relative;
-    bottom: -225px;
+    bottom: -290px;
     left: 25px;
 
     
 }
-/**/
+
+/*contact me section*/
 
 @media screen and (max-width: 755px) {
     ul, ul li a, .project-cards, header, header h1{
@@ -143,12 +179,12 @@ h3{
 }
 
 @media screen and (max-width: 755px) {
-    .aside , .portfolioimg{
+    aside , .portfolioimg{
         display: flex;
         justify-content: center;
         max-width: 300px;
         position: relative;
-        right: 140px;
+        right: 200px;
 
     }
 }
