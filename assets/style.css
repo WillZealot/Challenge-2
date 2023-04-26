@@ -182,6 +182,19 @@ h3{
 #email:active,#linkedin:active,#instagram:active{
     box-shadow:3px 3px black;
 }
+
+#email::after{
+    content:"📧" ;
+}
+
+#linkedin::after{
+    content: "💻";
+}
+
+#instagram::after{
+    content:"👀";
+}
+
 #Contact ul, #Contact ul li a{
     display: flex;
     flex-wrap: wrap;
@@ -191,6 +204,19 @@ h3{
     color: whitesmoke;
     list-style-type: none;
     text-decoration: none;
+}
+/*Footer Section Begins*/
+footer h6{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: grey;
+    min-height: 100px;
+    font-size: x-large;
+}
+
+footer h6::after{
+    content: "❤";
 }
 
 
