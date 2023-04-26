@@ -7,6 +7,8 @@ Employers can look at this and decide if I am a great fit or not.
 ## How was it made ?
 This website was made using basic Html and a lot of CSS.
 Getting the hang of flex and position and other elements was crazy.
+https://willzealot.github.io/Challenge-2/
+![image](https://user-images.githubusercontent.com/127908016/234438387-4c3e0cf0-9576-4acf-a82c-248c58f19eb2.png)
 
 ## Table of Contents inside my work files!
 ### HTML CONTENTS
