@@ -1,12 +1,13 @@
 *{
     font-family: Arial, Helvetica, sans-serif;
 }
-
+/*Section 2.1 The Body*/
 body{
     padding:0;
     margin:0;
     background-image: url(https://www.modacasa.es/wp-content/uploads/2016/10/Prism%20311787.jpg);
 }
+/*Section 2.2 The Header begins*/
 header{
     background-color: grey ;
     color: whitesmoke;
@@ -44,7 +45,7 @@ h1:hover{
     text-shadow: 10px 10px 10px black;
 }
 
-
+/*This Hover element right here will effect all a's so i dont have to do it later as well as the lower active element*/
 a:hover{
     text-shadow: 10px 10px 10px black;
     font-weight: bold;
@@ -53,7 +54,7 @@ a:hover{
 a:active{
     color:black;
 }
-/*About me Section Starts here*/
+/*Section 2.3 The About me Section*/
 #Aboutme h2{
     background-color: grey;
     text-indent: 25px;
@@ -103,7 +104,7 @@ h4{
     padding-top: 50px;
 }
 
-/*Project Cards Section Down Below*/
+/*Section 2.4 Project Cards Area*/
 
 #project1{
     display: flex;
@@ -139,7 +140,7 @@ h4{
     justify-content: space-evenly;
 }
 
-
+/*All my H3s will look like this amazing the positioning is the creme de la creme took  me so long to hover over the picture*/
 h3{
     background-color: grey;
     width: 200px;
@@ -153,7 +154,7 @@ h3{
     
 }
 
-/*contact me section*/
+/*Section 2.5 Contact Links Section*/
 #contact{
     display: flex;
     flex-wrap: wrap;
@@ -205,7 +206,7 @@ h3{
     list-style-type: none;
     text-decoration: none;
 }
-/*Footer Section Begins*/
+/*Section 2.6 The Footer*/
 footer h6{
     display: flex;
     justify-content: center;
@@ -219,7 +220,7 @@ footer h6::after{
     content: "❤";
 }
 
-
+/*Section 2.7 Media Query area*/
 @media screen and (max-width: 755px) {
     ul, ul li a, .project-cards, header, header h1{
         display: flex;
