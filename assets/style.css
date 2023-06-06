@@ -221,6 +221,11 @@ footer h6::after{
     content: "❤";
 }
 
+#smallerTitle{
+    position: relative;
+    bottom: -200px;
+}
+
 /*Section 2.7 Media Query area*/
 @media screen and (max-width: 755px) {
     ul, ul li a, .project-cards, header, header h1{
